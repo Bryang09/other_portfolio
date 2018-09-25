@@ -1,0 +1,213 @@
+.Projects {
+  /* min-height: 100vh; */
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Projects h2 {
+  font-size: 2em;
+  margin-bottom: 5vh;
+  font-weight: 400;
+  /* color: #706f6f; */
+  background-image: linear-gradient(
+    to right,
+    rgba(103, 0, 255, 0.5),
+    rgba(0, 97, 255, 0.77)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.MyProjects {
+  display: flex;
+  flex-direction: column;
+}
+
+.Project {
+  min-height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #eeeefe;
+  margin: 2vh 0;
+  padding-bottom: 5vh;
+}
+
+.Project img {
+  width: 80%;
+  height: 106%;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.ProjectText {
+  width: 47%;
+  color: #706f6f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProjectText h3 {
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 5vh auto 0;
+}
+
+.Buttons h5 {
+  line-height: 3.5;
+  width: 100%;
+  margin: 0;
+}
+
+.Buttons a {
+  width: 40%;
+  cursor: pointer;
+  margin: 0 0.5vw;
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+.Demo {
+  background: linear-gradient(
+    -90deg,
+    rgba(103, 0, 255, 0.5),
+    rgba(0, 97, 255, 0.77)
+  );
+  color: #eeeefe;
+  position: relative;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+.Demo:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(103, 0, 255, 0.1);
+  transition: all 2s ease;
+  color: #fff;
+}
+.Demo:hover:before {
+  width: 100%;
+}
+
+.Code {
+  background: linear-gradient(
+    90deg,
+    rgba(52, 116, 201, 0.9),
+    rgba(53, 231, 249, 0.9)
+  );
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.Code:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(53, 231, 249, 0.2);
+  transition: all 2s ease;
+  color: #fff;
+}
+.Code:hover:before {
+  width: 100%;
+  color: #fff;
+}
+
+.technology {
+  display: flex;
+  width: 95%;
+}
+
+.technology ul {
+  display: flex;
+  list-style: none;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.technology ul li {
+  padding: 0.7vh 2vw;
+  margin: 1vh 1vw;
+  border-radius: 5px;
+  background: linear-gradient(rgba(103, 0, 255, 0.5), rgba(0, 97, 255, 0.77));
+  color: #eeeefe;
+}
+
+@media only screen and (max-width: 992px) {
+  .Projects {
+    min-height: 100%;
+  }
+  .img {
+    width: 60%;
+  }
+  .ProjectText {
+    width: 40%;
+  }
+  .ProjectText h3,
+  .ProjectText h2 {
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .ProjectText h2 {
+    margin-bottom: 2vh;
+  }
+
+  .Buttons {
+    width: 70%;
+    margin-top: 3vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Project {
+    display: flex;
+    flex-direction: column;
+    min-height: 70%;
+  }
+  .ProjectText {
+    width: 100%;
+    margin-top: 5vh;
+  }
+  .img {
+    width: 100%;
+  }
+  .Buttons {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Project {
+    min-height: 60%;
+  }
+}

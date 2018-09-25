@@ -1,0 +1,9 @@
+.Graph {
+  height: 40vh;
+  background: linear-gradient(
+    90deg,
+    rgba(52, 116, 201, 0.9),
+    rgba(53, 231, 249, 0.9)
+  );
+  padding: 5vh 2vw;
+}
