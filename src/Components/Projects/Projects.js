@@ -8,31 +8,30 @@ class Projects extends Component {
         id: 4,
         img: "restaurant.jpg",
         title: "Restaurant Application",
-        desc:
-          "This is a modern Restaurant website built with React and React Router",
+        desc: "A modern website that advertises a mock restauarant.",
         demo: "https://bryang09.github.io/restaurant/#/",
         code: "https://github.com/Bryang09/restaurant",
-        tech: ["React", "React-Router", "FlexBox"]
+        tech: ["React", "React-Router", "Flexbox"]
       },
       {
         id: 3,
         img: "recipe.jpg",
         title: "Recipe Application",
         desc:
-          "This app makes use of the Food2Fork api. Completed with React, Axios, and React-Router, this app will deliver a number of recipes for any craving.",
+          "This app makes use of the Food2Fork api. It is designed to deliver a number of recipes for any craving.",
         demo: "https://bryang09.github.io/recipe/#/",
         code: "https://github.com/Bryang09/recipe",
-        tech: ["React", "React-Router", "FlexBox", "Axios"]
+        tech: ["React", "React-Router", "Flexbox", "Axios"]
       },
       {
         id: 1,
         img: "movie.jpg",
         title: "The Movie App",
         desc:
-          " An application making use of the MovieDb api. Bulilt with React and Axios. this application will displat information for any movie",
+          " An application making use of the MovieDb api. There is no movie you can't find information for.",
         demo: "https://bryang09.github.io/movies/ ",
         code: " https://github.com/Bryang09/movies",
-        tech: ["React", "React-Router", "FlexBox", "Axios"]
+        tech: ["React", "React-Router", "Flexbox", "Axios"]
       },
       {
         id: 5,
@@ -42,7 +41,7 @@ class Projects extends Component {
           "  An application which constantly searches for both shelters and animals based on their ZIP Code.",
         demo: "https://bryang09.github.io/adoption/#/",
         code: "https://github.com/Bryang09/adoption",
-        tech: ["React", "React-Router", "FlexBox", "Axios"]
+        tech: ["React", "React-Router", "Flexbox", "Axios"]
       },
       {
         id: 0,
@@ -55,7 +54,7 @@ class Projects extends Component {
         tech: [
           "React",
           "React-Router",
-          "FlexBox",
+          "Flexbox",
           "Axios",
           "MongoDB",
           "Express"
@@ -73,7 +72,7 @@ class Projects extends Component {
         tech: [
           "React",
           "React-Router",
-          "FlexBox",
+          "Flexbox",
           "Axios",
           "MongoDB",
           "Express"
