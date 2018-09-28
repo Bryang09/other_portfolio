@@ -34,6 +34,15 @@ class Projects extends Component {
         tech: ["React", "React-Router", "Flexbox", "Axios"]
       },
       {
+        id: 6,
+        img: "glasses.jpg",
+        title: "The Glasses App",
+        desc: "A landing site for a company that sells glasses.",
+        demo: "https://bryang09.github.io/glasses/ ",
+        code: " https://github.com/Bryang09/glasses",
+        tech: ["React", "React-Router", "Flexbox"]
+      },
+      {
         id: 5,
         img: "shelter.jpg",
         title: "Shelter App",
